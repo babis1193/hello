@@ -3,14 +3,14 @@
 /**
  * main - prints alphabet in lowercase and uppercase followed by a new line
  *
- * * Return: 0
+ * Return: 0
  *
  */
 
 int main(void)
 
 {
-	ichar c;
+	char c;
 	char d;
 
 	c = 'a';
