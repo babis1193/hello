@@ -1,25 +1,20 @@
-nclude <stdio.h>
+#include "main.h"
 
 
+	/**
+	 * 	 * print_alphabet - print all alphabet in lowercase	 * 	 	 */
 
-/**
- * main - Prints "_putchar" followed by a new line using putchar
- *
- * Return: 0
- */
 
-int main(void)
+	void print_alphabet(void)
+		{
+					char letter;
 
-{
-	int i;
-	char str[] = "_putchar";
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		putchar(str[i]);
-	}
-	putchar('\n');
-	return (0);
-}
+							for (letter = 'a'; letter <= 'z'; letter++)
+											_putchar(letter);
+
+
+									_putchar('\n');
+										}
 
 
